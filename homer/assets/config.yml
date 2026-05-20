@@ -1,0 +1,75 @@
+---
+title: "Dashboard"
+subtitle: "Mes favoris"
+logo: "logo.png"
+
+header: true
+footer: false
+
+columns: "3"
+connectivityCheck: false
+
+defaults:
+  layout: columns
+  colorTheme: auto
+
+services:
+  - name: "Intelligence Artificielle"
+    icon: "fas fa-robot"
+    items:
+      - name: "Claude — Chat"
+        icon: "fas fa-comments"
+        subtitle: "Assistant IA Anthropic"
+        url: "https://claude.ai/"
+        target: "_blank"
+      - name: "Claude — Conso API"
+        icon: "fas fa-chart-bar"
+        subtitle: "Consommation API Anthropic"
+        url: "https://console.anthropic.com/usage"
+        target: "_blank"
+      - name: "Claude — Offre Pro"
+        icon: "fas fa-crown"
+        subtitle: "Abonnement & usage CLI"
+        url: "https://claude.ai/settings/usage"
+        target: "_blank"
+      - name: "Gemini"
+        icon: "fas fa-gem"
+        subtitle: "Google Gemini AI"
+        url: "https://gemini.google.com/"
+        target: "_blank"
+      - name: "NotebookLM"
+        icon: "fas fa-book-open"
+        subtitle: "Recherche assistée par IA"
+        url: "https://notebooklm.google.com/"
+        target: "_blank"
+
+  - name: "Développement"
+    icon: "fas fa-code"
+    items:
+      - name: "GitHub — namnetes"
+        icon: "fab fa-github"
+        subtitle: "Mes dépôts"
+        url: "https://github.com/namnetes/"
+        target: "_blank"
+      - name: "Notes personnelles"
+        icon: "fas fa-server"
+        subtitle: "Service local"
+        url: "http://127.0.0.1:8000/"
+
+  - name: "Outils"
+    icon: "fas fa-tools"
+    items:
+      - name: "WiseMapping"
+        icon: "fas fa-sitemap"
+        subtitle: "Cartes mentales en ligne"
+        url: "https://app.wisemapping.com/c/login"
+        target: "_blank"
+
+  - name: "Médias"
+    icon: "fas fa-play-circle"
+    items:
+      - name: "YouTube"
+        icon: "fab fa-youtube"
+        subtitle: "Vidéos"
+        url: "https://www.youtube.com/"
+        target: "_blank"

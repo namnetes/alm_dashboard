@@ -1,0 +1,46 @@
+/* Largeur 100% + suppression des marges extérieures */
+.md-grid {
+  max-width: 100%;
+  margin: 0;
+}
+
+.md-content {
+  max-width: 100%;
+}
+
+/* Supprime le padding horizontal du conteneur principal */
+.md-main__inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Material impose un max-width sur le contenu de l'article */
+.md-content__inner {
+  max-width: 100%;
+}
+
+/* Sidebar gauche : 13.068rem (base Material 12.1rem, ajustée) */
+:root {
+  --md-sidebar-width: 13.068rem;
+}
+
+.md-sidebar {
+  width: 13.068rem !important;
+}
+
+/* Sidebar droite (TOC) : 20.7537rem */
+.md-sidebar--secondary {
+  width: 20.7537rem !important;
+}
+
+/* Material fixe le contenu de la sidebar à 11.5rem via calc(100% - 11.5rem)
+   en padding-right — on écrase ce calc pour utiliser toute la largeur. */
+@supports selector(::-webkit-scrollbar) {
+  [dir=ltr] .md-sidebar__inner {
+    padding-right: 0.4rem !important;
+  }
+}
+
+.md-sidebar__inner {
+  padding-right: 0.4rem !important;
+}
