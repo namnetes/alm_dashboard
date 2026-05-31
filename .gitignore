@@ -1,2 +1,5 @@
 site/
 .mkdocs.pid
+.mkdocs.log
+.venv/
+.ruff_cache/

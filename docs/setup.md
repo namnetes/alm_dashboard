@@ -14,6 +14,7 @@ Vérifier que les outils suivants sont installés avant de commencer :
 | Git | `git --version` | `sudo apt install git` |
 | Docker | `docker --version` | voir [docs.docker.com](https://docs.docker.com/engine/install/ubuntu/) |
 | Make | `make --version` | `sudo apt install make` |
+| uv | `uv --version` | voir [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/) |
 
 ---
 
@@ -22,6 +23,7 @@ Vérifier que les outils suivants sont installés avant de commencer :
 ```bash
 git clone git@github.com:namnetes/alm_dashboard.git ~/alm_dashboard
 cd ~/alm_dashboard
+make install
 ```
 
 !!! info "Clé SSH requise"

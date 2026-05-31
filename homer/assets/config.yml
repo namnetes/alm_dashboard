@@ -1,12 +1,11 @@
 ---
 title: "Dashboard"
 subtitle: "Mes favoris"
-logo: "logo.png"
 
 header: true
 footer: false
 
-columns: "3"
+columns: "4"
 connectivityCheck: false
 
 defaults:
@@ -63,6 +62,25 @@ services:
         icon: "fas fa-sitemap"
         subtitle: "Cartes mentales en ligne"
         url: "https://app.wisemapping.com/c/login"
+        target: "_blank"
+
+  - name: "E-Commerce"
+    icon: "fas fa-shopping-cart"
+    items:
+      - name: "Amazon"
+        icon: "fab fa-amazon"
+        subtitle: "Boutique en ligne"
+        url: "https://www.amazon.fr/"
+        target: "_blank"
+      - name: "AliExpress"
+        icon: "fas fa-shopping-bag"
+        subtitle: "Boutique en ligne"
+        url: "https://www.aliexpress.com/"
+        target: "_blank"
+      - name: "Tuxedo Computers"
+        logo: "assets/tuxedo.png"
+        subtitle: "PC Linux made in Germany"
+        url: "https://www.tuxedocomputers.com/"
         target: "_blank"
 
   - name: "Médias"
