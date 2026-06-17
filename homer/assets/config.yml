@@ -63,6 +63,11 @@ services:
         subtitle: "Cartes mentales en ligne"
         url: "https://app.wisemapping.com/c/login"
         target: "_blank"
+      - name: "EasyEDA"
+        icon: "fas fa-microchip"
+        subtitle: "Conception de schémas et PCB"
+        url: "https://docs.easyeda.com/en/"
+        target: "_blank"
 
   - name: "E-Commerce"
     icon: "fas fa-shopping-cart"
